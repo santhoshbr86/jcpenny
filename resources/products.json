@@ -1,0 +1,73 @@
+[	{
+			"model":"Sony-cyber shot DSC-w830/bc point and shoot Camera (Black)",
+			"img":"DSC-w830-black.png",
+			"rating":4,
+			"numberofRating":243,
+			"cost":"Rs 7,250",
+			"EMI":"Rs 352",
+			"features":
+			{
+				"pixel":"20.1MP",
+				"sensorType":"Sensor Type CGD",
+				"lcdSize":"LCD size 2.7"
+			}
+		},
+		{
+			"model":"Sony-cyber shot DSC-w830/bc point and shoot Camera (violet)",
+			"img":"DSC-w830-violet.png",
+			"rating":4,
+			"numberofRating":97,
+			"cost":"Rs 7,940",
+			"EMI":"Rs 364",
+			"features":
+			{
+				"pixel":"20.1MP",
+				"sensorType":"Sensor Type CGD",
+				"lcdSize":"LCD size 2.7"
+			}
+		},
+		{
+			"model":"Cananor powershot SX710 HS  point and shoot Camera (Black)",
+			"img":"SX710-black.png",
+			"rating":4,
+			"numberofRating":243,
+			"cost":"Rs 16,495",
+			"EMI":"Rs 800",
+			"features":
+			{
+				"pixel":"20.3MP",
+				"sensorType":"Sensor Type CMOS",
+				"betteryType":"Lethium Baterry",
+				"lcdSize":"LCD size 3"
+			}
+		},
+		{
+			"model":"Sony-cyber shot DSC-w830/bc point and shoot Camera (violet)",
+			"img":"DSC-w830-violet.png",
+			"rating":4,
+			"numberofRating":97,
+			"cost":"Rs 7,940",
+			"EMI":"Rs 364",
+			"features":
+			{
+				"pixel":"20.1MP",
+				"sensorType":"Sensor Type CGD",
+				"lcdSize":"LCD size 2.7"
+			}
+		},
+		{
+			"model":"Cananor powershot SX710 HS  point and shoot Camera (Black)",
+			"img":"SX710-black.png",
+			"rating":4,
+			"numberofRating":243,
+			"cost":"Rs 16,495",
+			"EMI":"Rs 800",
+			"features":
+			{
+				"pixel":"20.3MP",
+				"sensorType":"Sensor Type CMOS",
+				"betteryType":"Lethium Baterry",
+				"lcdSize":"LCD size 3"
+			}
+		}
+]

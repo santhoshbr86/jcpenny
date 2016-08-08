@@ -1,0 +1,58 @@
+<div class="container">
+	<header class="headerSection">
+		<h1>Search</h1>	
+		<div class="input-group pull-right">
+			<input type="text" placeholder="{{placeholder}}" ng-model="search" class="form-control">
+		</div>
+	</header>
+	<section class="productSection">
+			<ul class="prductFilter pull-right">
+				<li>
+					<input type="radio" class="form-radio" ng-model="filter.fil" value="relevance">
+					<label>Relevance</label>
+				</li>
+				<li>
+					<input type="radio" class="form-radio" ng-model="filter.fil" value="popular">
+					<label>Popular</label>
+				</li>
+				<li>
+					<input type="radio" class="form-radio" ng-model="filter.fil" value="lowPrice">
+					<label>Low price</label>
+				</li>
+				<li>
+					<input type="radio" class="form-radio" ng-model="filter.fil" value="highPrice">
+					<label>High Price</label>
+				</li>
+				<li>
+					<input type="radio" ng-model="filter.fil" class="form-radio" value="new">
+					<label>New</label>
+				</li>
+			</ul>
+		<div class="productListWrap">
+				<ul>
+					<li ng-repeat=" cam in cameraData | filter:search">
+						<div class="camWrap">
+							<h2>{{cam.model}}</h2>
+							<p><img ng-src="images/{{cam.img}}" /></p>
+							<p><span ng-repeat="r in cam.rating">*</span></p>
+							<hr>
+							<div class="cost">
+								<p class="black">{{cam.cost}}</p>
+								<p>{{cam.EMI}}</p>
+							</div>
+							<hr>
+							<ul class="features">
+								<li ng-repeat=" f in cam.features">
+									{{f}}
+								</li>
+							</ul>
+							<hr>
+							<p><input type="radio" > Add to compare</p>
+						</div>
+					</li>
+				</ul>
+		</div>
+				
+	</section>
+
+</div>

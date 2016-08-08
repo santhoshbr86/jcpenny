@@ -1,0 +1,18 @@
+{
+  "name": "jcpenny",
+  "version": "1.0.0",
+  "description": "A Ecommerce project.",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-less": "^1.3.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -a localhost -p 8000 -c-1",
+    "start-public": "http-server -a 0.0.0.0 -p 8000 -c-1"
+  }
+}
